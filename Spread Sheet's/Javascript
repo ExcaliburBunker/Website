@@ -1,0 +1,9 @@
+alert(score);
+document.write('<p>Hello to the World</p>');
+document.write(12+45);
+var score=45;
+
+var FirstName= 'Excalibur';
+var LastName= 'Bunker';
+var Age='14';
+var isSuperHero ='true';

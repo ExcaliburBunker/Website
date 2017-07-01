@@ -1,0 +1,148 @@
+<stlye>
+        body{color:black}
+        header {
+           position: absolute;
+            left: 98p;
+            top: 82px;
+            }
+        article {
+            position: absolute;
+            left: 100p;
+            top: 120px;
+        }
+        h3{
+           position: absolute;
+            left: 100p;
+            top: 130px;
+        }
+        div {
+            overflow: auto;
+            } 
+        ul{color:rgb(225, 225, 225)}
+        ul{
+
+            list-style: none;
+            margin: 1;
+            padding: 1;
+            overflow: hidden;
+            background-color:rgb(46, 155, 118);
+        }
+        
+        li{
+            float: left;
+        }
+
+        a{
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+        }
+
+        li a hover {
+            background-color: #111;
+        }
+         
+         .active {
+         	background-color: rbg(0, 165, 148);
+          }
+          li{
+	        border-right: 3px solid rgb(0, 159, 142)
+	        }
+          li:last-child{
+	        border-right: none;
+          }
+
+          ul{
+              Position:fixed;
+              top: 0;
+              width: 100%;
+              }
+</style>
+    <stlye>
+        p{text-align: center}
+
+        div.Heading{color:darkcyan;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+	    margin: 20px 0 20px 0;
+        line-height:20%;
+	    text-align: center;
+        }
+
+        body{background-color:rgb(46, 155, 118)}
+        
+        a:link{
+            color: blue;
+            background-color:transparent;
+            text-decoration: none;
+        }
+  
+        div.container {
+            width: 100%;
+            border: 3px solid rgb(46, 155, 107);
+        }
+        header, footer{
+        color:rgb(46, 157, 118);
+        background-color:rgb(46, 189, 152);
+        text-align:center;
+        padding:10px;
+        clear: left;
+        font-size:30px;
+        }
+       footer{
+        color:rgb(255, 255, 255);
+        background-color:rgb(0, 201, 140);
+        text-align:center;
+        padding:0.5em;
+        clear: left;
+        font-size:10px;
+        }
+        nav {
+            float: left;
+            max-width: 180px;
+            margin: 1;
+            padding: 1em;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul a{
+            text-decoration: none;
+        }
+        article{
+            margin: left;
+            border: 2px soild silver;
+            padding: 1em;
+            overflow: hidden;
+        }
+</style>
+   <style>
+    div.tab {
+        overflow: hidden;
+        border: 1px solid ccc;
+        background-color: f1f1f1;
+    }
+    div.tab button{
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 14px
+    }
+    div.tab button:hover {
+        background-color: #ddd;
+    }
+    div.tab button.active {
+        background-color: #ccc;
+    }
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+    </style>
